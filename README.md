@@ -6,3 +6,8 @@ CPU results.
 First one is using shared memory and parallel reduction.  
 Second one is shared memory, parallel reduction, and atomic function.  
 Third one is shared memory, parallel reduction, and atomic lock.  
+
+Installation:
+install CUDA first.
+Compile: nvcc dotproduct.cu -o dotproduct
+./dotproduct
