@@ -7,7 +7,15 @@ First one is using shared memory and parallel reduction.
 Second one is shared memory, parallel reduction, and atomic function.  
 Third one is shared memory, parallel reduction, and atomic lock.  
 
+
 Installation:
 install CUDA first.
 Compile: nvcc dotproduct.cu -o dotproduct
-./dotproduct
+./dotproduct  
+
+
+3. Matrix multiplication is to compute matrix_result = A * B for single precision matrices in cuda  
+Installation:  
+Step1: make  
+sizemult is the matrix size
+Step2: ./mmCUBLAS -sizemult=1
